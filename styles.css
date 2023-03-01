@@ -65,7 +65,7 @@ h1 {
   color: #F6F6F6
 }
 
-h1 > strong{
+.titulo-destaque {
   font-family: 'Krona One', sans-serif;
   font-size: 36px;
   color: #22D4FD
