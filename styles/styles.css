@@ -1,0 +1,152 @@
+/*  RESET DO BOX MODEL DA PÁGINA */
+:root {
+  --cor-primaria: #537FE7;
+  --cor-secundaria: #E9F8F9;
+  --cor-terciaria: #181823;
+  --cor-hover: #537FE7;
+
+  --fonte-primaria: 'Montserrat', sans-serif;
+  --fonte-secundaria: 'Krona One', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    text-decoration: none;
+}
+
+body{
+  background-color: var(--cor-terciaria);
+}
+
+header {
+  height: 5vh;
+  padding: 2% 0% 0% 28%;
+}
+
+header > nav {
+  display: flex;
+  gap: 8rem;
+}
+
+header > nav > a {
+  font-family: var(--fonte-primaria);
+  color: var(--cor-primaria);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+header > nav > a:hover{
+  border-bottom: 4px solid var(--cor-secundaria);
+  
+}
+
+
+.main-box{
+  display: flex;
+  gap: 9rem;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+
+.conteudo {
+  width: 65rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.btn-boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+
+.git-button,
+.linkedin-button,
+.twitch-button {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  width: 37.8rem;
+  padding: 2.2rem;
+  border: 1px solid var(--cor-primaria);
+  font-weight: bold;
+  border-radius: 0.8rem;
+  font-size: 2.4rem;
+
+  font-family: var(--fonte-primaria);
+  color: var(--cor-secundaria);
+  font-size: 2.6rem;
+  text-decoration: none;
+}
+
+.linkedin-button:hover,
+.git-button:hover, 
+.twitch-button:hover {
+  background-color: var(--cor-hover);
+}
+
+
+h1 {
+  font-family: var(--fonte-primaria);
+  color: var(--cor-secundaria)
+}
+
+
+h3 {
+  font-family: var(--fonte-secundaria);
+  color: var(--cor-secundaria);
+  font-size: 2.4rem;
+}
+
+h1 > strong{
+  font-family: var(--fonte-secundaria);
+  font-size: 3.6rem;
+  color: var(--cor-primaria)
+}
+
+h1 {
+  font-size: 3.6rem;
+}
+
+.textos {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.textos > p {
+  font-family: var(--fonte-primaria);
+  color: var(--cor-secundaria);
+  font-size: 24px;
+  line-break: auto;
+  line-height: 3.6rem;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 5vh;
+  background-color: var(--cor-primaria);
+}
+
+footer > p {
+  font-family: var(--fonte-primaria);
+  color: var(--cor-terciaria);
+  font-weight: 400;
+  font-size: 1.8rem;
+}
