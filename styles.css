@@ -1,3 +1,4 @@
+/*  RESET DO BOX MODEL DA PÁGINA */
 * {
     padding: 0;
     margin: 0;
@@ -24,6 +25,7 @@ header > nav {
 header > nav > a {
   color: #22D4FD;
   font-size: 2.4rem;
+  font-weight: 600;
 }
 
 
@@ -46,32 +48,39 @@ header > nav > a {
 .btn-boxes {
   display: flex;
   flex-direction: row;
-  gap: 50px
+}
+
+.ig-button{
+  margin-right: 50px;
 }
 
 
-.ig-button,
-.git-button {
+.git-button,
+.linkedin-button,
+.twitch-button {
   display: flex;
   justify-content: center;
+  gap: 16px;
   align-items: center;
-  width: 28rem;
-  height: 7.9rem;
+  width: 280px;
+  height: 79px;
   background-color: #22d4fd;
   font-weight: bold;
   border-radius: 1.6rem;
   font-size: 2.4rem;
 }
 
-.ig-button:hover,
-.git-button:hover {
+.linkedin-button:hover,
+.git-button:hover, 
+.twitch-button:hover {
   filter: brightness(0.85);
 }
 
 a {
   font-family: 'Montserrat', sans-serif;
   color: black;
-  font-size: 2.6rem;
+  font-size: 26px;
+  text-decoration: none;
 }
 
 h1 {
@@ -79,7 +88,7 @@ h1 {
   color: #F6F6F6
 }
 
-.titulo-destacado {
+h1 > strong{
   font-family: 'Krona One', sans-serif;
   font-size: 3.6rem;
   color: #22D4FD
