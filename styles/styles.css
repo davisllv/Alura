@@ -12,8 +12,6 @@
 * {
     padding: 0;
     margin: 0;
-    border: 0;
-    box-sizing: border-box;
     font-size: 62.5%;
     text-decoration: none;
 }
@@ -22,21 +20,24 @@ body{
   background-color: var(--cor-terciaria);
 }
 
-header {
+.cabecalho{
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
   height: 5vh;
-  padding: 2% 0% 0% 28%;
+  
 }
 
-header > nav {
+.cabecalho__menu{
   display: flex;
   gap: 8rem;
 }
 
-header > nav > a {
-  font-family: var(--fonte-primaria);
-  color: var(--cor-primaria);
+.cabecalho__menu__link{
+  font-family: var(--fonte-secundaria);
   font-size: 2.4rem;
   font-weight: 600;
+  color: var(--cor-secundaria);
 }
 
 header > nav > a:hover{
@@ -44,14 +45,13 @@ header > nav > a:hover{
   
 }
 
-
 .main-box{
   display: flex;
-  gap: 9rem;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 90vh;
+  gap: 3rem;
 }
 
 
