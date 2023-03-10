@@ -23,7 +23,7 @@ body{
 .cabecalho{
   display: flex;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 20rem;
   height: 5vh;
   
 }
